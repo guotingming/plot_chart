@@ -26,7 +26,7 @@ markerfacecolor='red',markersize=7)
 plt.plot(x1,y3,label='Traditional Large Signal Calibration Method',linewidth=1,color='g',marker='.',
 markerfacecolor='green',markersize=7)
 #plt.plot(x2,y2,label='second line')
-plt.xlabel('Frequency(Ghz)')
+plt.xlabel('Frequency(GHz)')
 plt.ylabel('Magnitude(dB)')
 plt.title('PortPower Mesurement')
 plt.legend()
